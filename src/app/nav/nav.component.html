@@ -1,0 +1,7 @@
+<ul>
+    <li routerLink="/home" [class.selectedItem]="selectedMenuItem === 'home'" (click)="selectMenuItem('home')">Home</li>
+    <li routerLink="/about" [class.selectedItem]="selectedMenuItem === 'about'" (click)="selectMenuItem('about')">About
+    </li>
+    <li routerLink="/contact-us" [class.selectedItem]="selectedMenuItem === 'contact-us'"
+        (click)="selectMenuItem('contact-us')">Contact Us</li>
+</ul>

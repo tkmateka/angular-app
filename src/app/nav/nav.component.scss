@@ -1,0 +1,21 @@
+ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1em;
+    li {
+        list-style: none;
+        &:hover {
+            font-weight: bold;
+            text-decoration: underline;
+            color: tomato;
+            cursor: pointer;
+        }
+    }
+    .selectedItem {
+        font-weight: bold;
+        text-decoration: underline;
+        color: tomato;
+        cursor: pointer;
+    }
+}
